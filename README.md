@@ -42,7 +42,7 @@ Uma jornada para quem não tem medo do desconhecido. O caminho para o Mundo Inve
 
 ## Professores
 
-- Diogo Mainardes
-- Michele Ambrósio
+- Diogo Mainardes -> HTML
+- Michele Ambrósio -> CSS
  
 
