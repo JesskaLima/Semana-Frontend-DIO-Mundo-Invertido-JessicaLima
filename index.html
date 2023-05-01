@@ -3,12 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="autor" content="Jessica de Lima Basilio">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mundo Invertido | Semana Frontend</title>
+
+    <link rel="stylesheet" type="text/CSS" href="style.css">
 </head>
 <body>
     <header>
-        <audio id="music" >
+        <audio id="music" autoplay>
             <source src="assets/musics/normal-world.mpeg" />
         </audio>
 
@@ -26,6 +29,7 @@
     </header>
 
     <main>
+
         <section id="section-iverted-world" class="container">
             <div class="section-texts">
                 <h1>O Mundo Invertido</h1>
@@ -73,6 +77,7 @@
                 </ul>
             </div>
         </section>
+
         <section id="section-form" class="container">
 
             <h2>O clube Dungeons & Dragons</h2>
@@ -84,13 +89,25 @@
                 <h3>Entre para o clube de D&D e tenha experiencias de <span>outro mundo<span></span></h3>
 
                 <div class="form-container">
-                    <form action=""></form>
+                    <form>
+                        <label for="name">Nome completo</label>
+                        <input type="text" name="name" id="txtName">
+
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" id="txtEmail">
+
+                        <label for="level">Level</label>
+                        <input type="text" name="level" id="txtLevel">
+                    
+                        <label for="character">Nome completo</label>
+                        <input name="character" cols="30" rols="10" id="txtCharacter">
+
+                        <button type="button" id="btnSubscribe">Me inscrever</button>                    
+                    </form>
 
                 </div>
 
             </div>
-
-
         </section>
     </main>
 
