@@ -11,15 +11,14 @@
 </head>
 <body>
     <header>
-        <audio id="music" autoplay>
+        <audio id="music"> //colocar autoplay para tocar dentro dessa tag
             <source src="assets/musics/normal-world.mpeg" />
         </audio>
 
         <div class="header-content">
             <img class="invert-element" src="assets/images/banner/logo.svg" alt="Imagem principal Mundo Invertido. Semana Frontend DIO._">
             <p class="invert-element" role="text">
-                Uma jornada para quem não tem medo do desconhecido. O caminho para o Mundo Invertido é incerto,
-                repleto de obstáculos e perigos. Porém a recompensa é grande: salvar Howkings e o mundo todo das garras de Vecna. Você está preparado? Então clique no botão abaixo para entrar no Mundo Invertido!
+                Uma jornada para quem não tem medo do desconhecido. O caminho para o Mundo Invertido é incerto, repleto de obstáculos e perigos. Porém a recompensa é grande: salvar Howkings e o mundo todo das garras de Vecna. Você está preparado? Então clique no botão abaixo para entrar no Mundo Invertido!
             </p>
             <button id="switch-theme-button" onclick="switchTheme()">Inverter Mundos</button>
 
@@ -90,17 +89,17 @@
 
                 <div class="form-container">
                     <form>
-                        <label for="name">Nome completo</label>
+                        <label for="txtName">Nome completo</label>
                         <input type="text" name="name" id="txtName">
 
-                        <label for="email">E-mail</label>
+                        <label for="txtEmail">E-mail</label>
                         <input type="email" name="email" id="txtEmail">
 
-                        <label for="level">Level</label>
+                        <label for="txtLevel">Level</label>
                         <input type="text" name="level" id="txtLevel">
                     
-                        <label for="character">Nome completo</label>
-                        <input name="character" cols="30" rols="10" id="txtCharacter">
+                        <label for="txtCharacter">Personagem</label>
+                        <textarea name="character" cols="30" rols="10" id="txtCharacter"></textarea>
 
                         <button type="button" id="btnSubscribe">Me inscrever</button>                    
                     </form>
